@@ -1,0 +1,15 @@
+python
+print("hello")
+DELAY 5.0s
+print("hello")
+DELAY 10.0s
+exit()
+python Test.py Testfilerunning
+python
+DELAY 20.0s
+DELAY 20.0s
+exit()
+DELAY 5.0s
+NonIPython(python Test.py nonpsv)
+DELAY 5.0s
+python Test.py Testfile running
