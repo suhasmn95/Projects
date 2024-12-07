@@ -47,28 +47,28 @@ Here's how you can run the lexer and parser:
    ```bash
    python CPlus2_Interpreter/Test.py
    ```
-The output will tokenize the source code and parse the function definitions. Example output:
+     The output will tokenize the source code and parse the function definitions. Example output:
      ```bash
-   Token(KEYWORD, 'fn')
-   Token(IDENTIFIER, 'add')
-   Token(DELIMITER, '(')
-   Token(IDENTIFIER, 'a')
-   Token(DELIMITER, ':')
-   Token(DATATYPE, 'int')
-   Token(DELIMITER, ',')
-   Token(IDENTIFIER, 'b')
-   Token(DELIMITER, ':')
-   Token(DATATYPE, 'int')
-   Token(DELIMITER, ')')
-   Token(OPERATOR, '-')
-   Token(OPERATOR, '>')
-   Token(DATATYPE, 'int')
-   Token(DELIMITER, ':')
-   Token(KEYWORD, 'return')
-   Token(IDENTIFIER, 'a')
-   Token(OPERATOR, '+')
-   Token(IDENTIFIER, 'b')
-   Token(DELIMITER, ';')
+     Token(KEYWORD, 'fn')
+     Token(IDENTIFIER, 'add')
+     Token(DELIMITER, '(')
+     Token(IDENTIFIER, 'a')
+     Token(DELIMITER, ':')
+     Token(DATATYPE, 'int')
+     Token(DELIMITER, ',')
+     Token(IDENTIFIER, 'b')
+     Token(DELIMITER, ':')
+     Token(DATATYPE, 'int')
+     Token(DELIMITER, ')')
+     Token(OPERATOR, '-')
+     Token(OPERATOR, '>')
+     Token(DATATYPE, 'int')
+     Token(DELIMITER, ':')
+     Token(KEYWORD, 'return')
+     Token(IDENTIFIER, 'a')
+     Token(OPERATOR, '+')
+     Token(IDENTIFIER, 'b')
+     Token(DELIMITER, ';')
      ```
 After parsing, the result will be an abstract representation of the functions defined:
    ```bash
