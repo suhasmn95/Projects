@@ -48,7 +48,7 @@ Here's how you can run the lexer and parser:
    python CPlus2_Interpreter/Test.py
    ```
 The output will tokenize the source code and parse the function definitions. Example output:
-   ```bash
+     ```bash
    Token(KEYWORD, 'fn')
    Token(IDENTIFIER, 'add')
    Token(DELIMITER, '(')
@@ -69,7 +69,7 @@ The output will tokenize the source code and parse the function definitions. Exa
    Token(OPERATOR, '+')
    Token(IDENTIFIER, 'b')
    Token(DELIMITER, ';')
-   ```
+     ```
 After parsing, the result will be an abstract representation of the functions defined:
    ```bash
    [{'name': 'add', 'parameters': [('a', 'int'), ('b', 'int')], 'return_type': 'int', 'body': []}]
