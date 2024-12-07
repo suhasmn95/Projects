@@ -28,27 +28,29 @@ CLE is a simple yet powerful tool built with Python and Tkinter to execute comma
 	```
 3. **Run the Application**: Once everything is set up, you can run the application with:
  
- ```bash
+ 	```bash
 	python cle_gui.py
 	Execute Commands: You can enter your commands in the provided input field and execute them by pressing the Execute button. The output will be displayed in the output section below.
- ```
+ 	```
 
-##Example Usage
+## Example Usage
 Here’s how you can use CLE:
 
 1. Open the application.
 2. Type a command like python yourcode.py into the input field.
 Press the Execute button.
 
-##Future Plans 🌱
+## Future Plans 🌱
  - Add Command Autocompletion: Improve user experience by adding autocompletion for commands.
  - Enhance Command History: Enable the ability to search and navigate through previously executed commands.
  - Improve Output Handling: Add better formatting for output, including color-coded output for errors, warnings, etc.
  - Support for Multiple Tabs: Allow multiple command-line sessions in separate tabs for more complex workflows.
-##Contributing 💡
+   
+## Contributing 💡
 If you have suggestions, improvements, or bug fixes, feel free to contribute! Here's how:
 
 1. Fork the repository.
 2. Make your changes.
 3. Submit a pull request with a description of your changes.
+   
 Your contributions are highly appreciated!
