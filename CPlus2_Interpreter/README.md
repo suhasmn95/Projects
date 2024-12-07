@@ -41,3 +41,42 @@ Here's how you can run the lexer and parser:
    ```bash
    git clone https://github.com/yourusername/cplus2.git
    cd cplus2
+2. Run the lexer and parser on a sample source code:
+   ```bash
+   python CPlus2_Interpreter/Test.py
+The output will tokenize the source code and parse the function definitions. Example output:
+  ```bash
+  Token(KEYWORD, 'fn')
+  Token(IDENTIFIER, 'add')
+  Token(DELIMITER, '(')
+  Token(IDENTIFIER, 'a')
+  Token(DELIMITER, ':')
+  Token(DATATYPE, 'int')
+  Token(DELIMITER, ',')
+  Token(IDENTIFIER, 'b')
+  Token(DELIMITER, ':')
+  Token(DATATYPE, 'int')
+  Token(DELIMITER, ')')
+  Token(OPERATOR, '-')
+  Token(OPERATOR, '>')
+  Token(DATATYPE, 'int')
+  Token(DELIMITER, ':')
+  Token(KEYWORD, 'return')
+  Token(IDENTIFIER, 'a')
+  Token(OPERATOR, '+')
+  Token(IDENTIFIER, 'b')
+  Token(DELIMITER, ';')
+After parsing, the result will be an abstract representation of the functions defined:
+  ```bash
+  [{'name': 'add', 'parameters': [('a', 'int'), ('b', 'int')], 'return_type': 'int', 'body': []}]
+
+## Future Plans
+  - Implement parsing for the **function body**, such as **return statements** and **expressions**.
+  - Add **execution logic** to evaluate parsed expressions and function calls.
+  - Improve **error handling** and edge cases for better robustness.
+  - Expand the language features, including loops, conditionals, and more.
+
+## Contributing
+Feel free to contribute if you have suggestions, improvements, or bug fixes. Please fork the repository, make your changes, and submit a pull request.
+
+
