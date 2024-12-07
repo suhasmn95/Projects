@@ -26,6 +26,7 @@ Some of the projects here may still be in progress, while others might be fully 
   - Learning Resources: Some repositories are simple demos or exercises from my learning journey.
   - Personal Projects: Some are standalone applications or tools that I’ve developed to explore new ideas and technologies.
   - Collaborative Projects: Open-source projects where anyone can pitch in and help improve the codebase.
+
 🌱 **Future Plans**
 As I continue to learn and grow, I plan to keep adding new projects to this profile. The aim is to:
   - Work with different frameworks, languages, and tools.
