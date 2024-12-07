@@ -70,10 +70,10 @@ Here's how you can run the lexer and parser:
      Token(IDENTIFIER, 'b')
      Token(DELIMITER, ';')
      ```
-After parsing, the result will be an abstract representation of the functions defined:
-   ```bash
-   [{'name': 'add', 'parameters': [('a', 'int'), ('b', 'int')], 'return_type': 'int', 'body': []}]
-   ```
+     After parsing, the result will be an abstract representation of the functions defined:
+     ```bash
+     [{'name': 'add', 'parameters': [('a', 'int'), ('b', 'int')], 'return_type': 'int', 'body': []}]
+     ```
 ## Future Plans
   - Implement parsing for the **function body**, such as **return statements** and **expressions**.
   - Add **execution logic** to evaluate parsed expressions and function calls.
