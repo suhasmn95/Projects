@@ -1,5 +1,7 @@
 ### **Simple Chat Application (Real-Time Communication)**
-This project implements a real-time chat application using Python. It includes a client-server architecture with the server handling communication between multiple clients. The application uses sockets for real-time message transmission and **Tkinter** for a simple graphical user interface (GUI).
+This project implements a real-time chat application using Python. It includes a client-server architecture with the server handling communication between multiple clients. The application uses sockets for real-time message transmission and **Tkinter** for a simple graphical user interface (GUI). 
+
+The server can be used for managing client connections. The server allows multiple clients to connect and chat in real-time. The server's GUI displays all active clients and provides functionality to terminate individual client connections.
 
 ## Features:
 - Real-time communication between multiple clients.
@@ -45,6 +47,7 @@ Simply close the client or server window to stop the application. The server wil
 - The server listens for incoming connections on 'localhost' (127.0.0.1) at port '12345'.
 - For each connected client, a new thread is spawned to handle communication independently.
 - Messages received from a client are broadcast to all other connected clients.
+- **Server-side GUI**: Displays a list of connected clients and allows the server admin to terminate selected clients.
 ## **Client** ('client.py'):
 - The client connects to the server at localhost:12345.
 - The GUI is created using Tkinter, where users can type and send messages.
