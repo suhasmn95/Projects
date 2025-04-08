@@ -1,4 +1,4 @@
-This is a simple C code for a basic family tree data structure using structures and dynamic memory allocation
+This is a simple C and C++ code for a basic family tree data structure using structures and dynamic memory allocation
 
 Code Output:
 
